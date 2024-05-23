@@ -37,7 +37,7 @@ function Productsss() {
       {products.map((val, index)=> <Product val={val} mover={mover} count={index} /> )}
       <div className='absolute top-0 w-full h-full pointer-events-none'>
         <motion.div initial={{y: pos}} animate={{y: pos+`rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: 0.6}} className='absolute w-[25rem] h-[20rem] left-[45%] white sm:rounded-xl overflow-hidden'>
-          <motion.div animate={{y: -pos+`rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}} className=' w-full h-full   '> <video src="resources/jungle-4-3-.webm" autoPlay loop muted></video></motion.div>
+          <motion.div animate={{y: -pos+`rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}} className=' w-full h-full   '> <video src="resources/arqitel.webm" autoPlay loop muted></video></motion.div>
           <motion.div animate={{y: -pos+`rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}}  className=' w-full h-full  '> <video src="resources/jungle-4-3-.webm" autoPlay loop muted></video></motion.div>
           <motion.div animate={{y: -pos+`rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}}  className=' w-full h-full  '> <video src="resources/jungle-4-3-.webm" autoPlay loop muted></video></motion.div>
           <motion.div animate={{y: -pos+`rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: 0.5}}  className=' w-full h-full  '> <video src="resources/jungle-4-3-.webm" autoPlay loop muted></video></motion.div>
